@@ -5,14 +5,18 @@ using UnityEngine;
 public class objPickup : MonoBehaviour
 {
     public GameObject crosshair1, crosshair2;
+    public TrailRenderer trail;
     public Transform objTransform, cameraTrans;
     [SerializeField] private bool interactable, pickedup;
     [SerializeField] private Rigidbody objRigidbody;
     [SerializeField] private float throwAmount;
+    [SerializeField] private string _Team1 = "";
 
     private void Start() {
         objTransform = GetComponent<Transform>();
         objRigidbody = GetComponent<Rigidbody>();
+        trail = GetComponent<TrailRenderer>();
+        trail.enabled = false;
     }
     void OnTriggerStay(Collider other)
     {
@@ -71,8 +75,27 @@ public class objPickup : MonoBehaviour
                     objRigidbody.useGravity = true;
                     objRigidbody.velocity = cameraTrans.forward * throwAmount * Time.deltaTime;
                     pickedup = false;
+                    trail.enabled = true;
+                    SetTrailMaterial();
                 }
             }
         }
     }
+    private void OnCollisionEnter(Collision other) {
+        if(objRigidbody.velocity.magnitude < 10f){
+            trail.enabled = false;
+        }
+    }
+    public void SetTrailMaterial(){
+        if(cameraTrans.gameObject.layer == 6){
+            trail.material.SetFloat(_Team1, 0f);
+            Debug.Log("Es del equipo 1");
+        }
+        else if(cameraTrans.gameObject.layer == 7){
+            trail.material.SetFloat(_Team1, 1f);
+            Debug.Log("Es del equipo 2");
+        }
+    }
+
+
 }

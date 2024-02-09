@@ -1030,7 +1030,7 @@ PrefabInstance:
     - target: {fileID: 2439165864954332257, guid: a6b7ae4d8e2650c478988d59c57a2e02,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 60.54
+      value: 60.547
       objectReference: {fileID: 0}
     - target: {fileID: 2439165864954332257, guid: a6b7ae4d8e2650c478988d59c57a2e02,
         type: 3}
@@ -3346,6 +3346,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
         type: 3}
+      propertyPath: _Team1
+      value: _Team1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
+        type: 3}
       propertyPath: crosshair1
       value: 
       objectReference: {fileID: 217591375}
@@ -3706,6 +3711,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mass
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
+        type: 3}
+      propertyPath: _Team1
+      value: _Team1
       objectReference: {fileID: 0}
     - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
         type: 3}
@@ -4358,6 +4368,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 847853577}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &337133099 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3176439141931433716, guid: 8931b21d39a6b88499d88e61c8a35da4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1594002700}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &337684442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4554,6 +4570,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mass
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
+        type: 3}
+      propertyPath: _Team1
+      value: _Team1
       objectReference: {fileID: 0}
     - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
         type: 3}
@@ -6478,8 +6499,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 567760071}
-  - component: {fileID: 567760076}
-  - component: {fileID: 567760075}
   - component: {fileID: 567760074}
   - component: {fileID: 567760073}
   - component: {fileID: 567760072}
@@ -6569,30 +6588,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &567760075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 567760070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &567760076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 567760070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &567789648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7966,6 +7961,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mass
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
+        type: 3}
+      propertyPath: _Team1
+      value: _Team1
       objectReference: {fileID: 0}
     - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
         type: 3}
@@ -12782,7 +12782,7 @@ PrefabInstance:
     - target: {fileID: 2439165864954332257, guid: a6b7ae4d8e2650c478988d59c57a2e02,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -60.54
+      value: -60.547
       objectReference: {fileID: 0}
     - target: {fileID: 2439165864954332257, guid: a6b7ae4d8e2650c478988d59c57a2e02,
         type: 3}
@@ -12897,6 +12897,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mass
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
+        type: 3}
+      propertyPath: _Team1
+      value: _Team1
       objectReference: {fileID: 0}
     - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
         type: 3}
@@ -16591,6 +16596,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
         type: 3}
+      propertyPath: _Team1
+      value: _Team1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
+        type: 3}
       propertyPath: crosshair1
       value: 
       objectReference: {fileID: 217591375}
@@ -19419,8 +19429,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1471758862}
-  - component: {fileID: 1471758861}
-  - component: {fileID: 1471758860}
   - component: {fileID: 1471758859}
   - component: {fileID: 1471758858}
   - component: {fileID: 1471758857}
@@ -19495,30 +19503,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1471758860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1471758856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1471758861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1471758856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1471758862
 Transform:
   m_ObjectHideFlags: 0
@@ -21460,6 +21444,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
         type: 3}
+      propertyPath: _Team1
+      value: _Team1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
+        type: 3}
       propertyPath: crosshair1
       value: 
       objectReference: {fileID: 217591375}
@@ -21690,6 +21679,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mass
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
+        type: 3}
+      propertyPath: _Team1
+      value: _Team1
       objectReference: {fileID: 0}
     - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
         type: 3}
@@ -22239,6 +22233,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mass
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
+        type: 3}
+      propertyPath: _Team1
+      value: _Team1
       objectReference: {fileID: 0}
     - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
         type: 3}
@@ -23067,6 +23066,7 @@ MonoBehaviour:
   otherScene: TeamDeathmatch
   player: {fileID: 858856376}
   capsule: {fileID: 735715342}
+  camera: {fileID: 337133099}
 --- !u!4 &1744117829
 Transform:
   m_ObjectHideFlags: 0
@@ -23313,6 +23313,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mass
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
+        type: 3}
+      propertyPath: _Team1
+      value: _Team1
       objectReference: {fileID: 0}
     - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
         type: 3}
@@ -25271,6 +25276,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mass
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
+        type: 3}
+      propertyPath: _Team1
+      value: _Team1
       objectReference: {fileID: 0}
     - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
         type: 3}
@@ -28121,10 +28131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball
       objectReference: {fileID: 0}
-    - target: {fileID: 2832573146838542287, guid: 0a832411a9f887e4c9fccf4e122e25d6,
+    - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
         type: 3}
-      propertyPath: m_Mass
-      value: 10
+      propertyPath: _Team1
+      value: _Team1
       objectReference: {fileID: 0}
     - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
         type: 3}
@@ -28141,11 +28151,6 @@ PrefabInstance:
       propertyPath: cameraTrans
       value: 
       objectReference: {fileID: 1841691304}
-    - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
-        type: 3}
-      propertyPath: throwAmount
-      value: 10000
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a832411a9f887e4c9fccf4e122e25d6, type: 3}
 --- !u!1001 &3710190383009906902

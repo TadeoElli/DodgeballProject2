@@ -2284,12 +2284,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   crosshair1: {fileID: 174594022}
   crosshair2: {fileID: 1963169352}
+  trail: {fileID: 0}
   objTransform: {fileID: 0}
   cameraTrans: {fileID: 1277854489}
   interactable: 0
   pickedup: 0
   objRigidbody: {fileID: 0}
   throwAmount: 10000
+  _Team1: 
 --- !u!1 &264310412
 GameObject:
   m_ObjectHideFlags: 0
@@ -2738,12 +2740,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   crosshair1: {fileID: 174594022}
   crosshair2: {fileID: 1963169352}
+  trail: {fileID: 0}
   objTransform: {fileID: 0}
   cameraTrans: {fileID: 1277854489}
   interactable: 0
   pickedup: 0
   objRigidbody: {fileID: 0}
   throwAmount: 10000
+  _Team1: 
 --- !u!1001 &301491490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5411,6 +5415,7 @@ MonoBehaviour:
   otherScene: TeamFlagLevel
   player: {fileID: 1598009469}
   capsule: {fileID: 1598009470}
+  camera: {fileID: 1598009472}
 --- !u!4 &434688482
 Transform:
   m_ObjectHideFlags: 0
@@ -13108,12 +13113,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   crosshair1: {fileID: 174594022}
   crosshair2: {fileID: 1963169352}
+  trail: {fileID: 0}
   objTransform: {fileID: 0}
   cameraTrans: {fileID: 1277854489}
   interactable: 0
   pickedup: 0
   objRigidbody: {fileID: 0}
   throwAmount: 10000
+  _Team1: 
 --- !u!1 &871154313
 GameObject:
   m_ObjectHideFlags: 0
@@ -15299,12 +15306,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   crosshair1: {fileID: 174594022}
   crosshair2: {fileID: 1963169352}
+  trail: {fileID: 0}
   objTransform: {fileID: 0}
   cameraTrans: {fileID: 1277854489}
   interactable: 0
   pickedup: 0
   objRigidbody: {fileID: 0}
   throwAmount: 10000
+  _Team1: 
 --- !u!1 &980127279
 GameObject:
   m_ObjectHideFlags: 0
@@ -18816,12 +18825,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   crosshair1: {fileID: 174594022}
   crosshair2: {fileID: 1963169352}
+  trail: {fileID: 0}
   objTransform: {fileID: 0}
   cameraTrans: {fileID: 1277854489}
   interactable: 0
   pickedup: 0
   objRigidbody: {fileID: 0}
   throwAmount: 10000
+  _Team1: 
 --- !u!4 &1277854489 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3176439141931433713, guid: 8931b21d39a6b88499d88e61c8a35da4,
@@ -20749,12 +20760,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   crosshair1: {fileID: 174594022}
   crosshair2: {fileID: 1963169352}
+  trail: {fileID: 0}
   objTransform: {fileID: 0}
   cameraTrans: {fileID: 1277854489}
   interactable: 0
   pickedup: 0
   objRigidbody: {fileID: 0}
   throwAmount: 10000
+  _Team1: 
 --- !u!1001 &1541252266
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21096,6 +21109,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f516e2597875d8c48b17982329df5aa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1598009472 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3176439141931433716, guid: 8931b21d39a6b88499d88e61c8a35da4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1598009468}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1603001521
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 {
     // Start is called before the first frame update
     public string scene, otherScene;
-    public GameObject player, capsule;
+    public GameObject player, capsule, camera;
     void Start()
     {
         
@@ -26,11 +26,13 @@ public class GameManager : MonoBehaviour
         else if(Input.GetKeyDown(KeyCode.Alpha1)){
             player.layer = 6;
             capsule.layer = 6;
+            camera.layer = 6;
             Debug.Log("si");
         }
         else if(Input.GetKeyDown(KeyCode.Alpha2)){
             player.layer = 7;
             capsule.layer = 7; 
+            camera.layer = 7;
         }
     }
 }
