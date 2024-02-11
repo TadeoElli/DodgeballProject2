@@ -7,6 +7,7 @@ public class objPickup : MonoBehaviour
     public GameObject crosshair1, crosshair2;
     public TrailRenderer trail;
     public Transform objTransform, cameraTrans;
+    private Collider collider;
     [SerializeField] private bool interactable, pickedup;
     [SerializeField] private Rigidbody objRigidbody;
     [SerializeField] private float throwAmount;
@@ -16,6 +17,7 @@ public class objPickup : MonoBehaviour
         objTransform = GetComponent<Transform>();
         objRigidbody = GetComponent<Rigidbody>();
         trail = GetComponent<TrailRenderer>();
+        collider = GetComponent<Collider>();
         trail.enabled = false;
     }
     void OnTriggerStay(Collider other)
@@ -58,6 +60,7 @@ public class objPickup : MonoBehaviour
                 objRigidbody.constraints = RigidbodyConstraints.FreezeAll;
                 objRigidbody.useGravity = false;
                 pickedup = true;
+                collider.enabled = false;
             }
             if (Input.GetMouseButtonUp(0))
             {
@@ -65,6 +68,7 @@ public class objPickup : MonoBehaviour
                 objRigidbody.constraints = RigidbodyConstraints.None;
                 objRigidbody.useGravity = true;
                 pickedup = false;
+                collider.enabled = true;
             }
             if(pickedup == true)
             {
@@ -76,6 +80,7 @@ public class objPickup : MonoBehaviour
                     objRigidbody.velocity = cameraTrans.forward * throwAmount * Time.deltaTime;
                     pickedup = false;
                     trail.enabled = true;
+                    collider.enabled = true;
                     SetTrailMaterial();
                 }
             }
