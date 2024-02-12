@@ -32,7 +32,7 @@ public class PowerUpShield : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other) {
         if(other.gameObject.tag == "Player"){
-            other.GetComponentInParent<FPSController>().ShieldPowerUp();
+            other.GetComponentInParent<PlayerShield>().ShieldPowerUp();
             DesactivatePowerUp();
         }
     }

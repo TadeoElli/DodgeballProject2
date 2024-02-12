@@ -20,8 +20,7 @@ public class FPSController : MonoBehaviour
     public bool isRunning = false;
     public bool isExhausted = false;
     
-    [Header("Shield")]
-    public GameObject shield;
+    
 
 
     public float lookSpeed = 2f;
@@ -147,12 +146,5 @@ public class FPSController : MonoBehaviour
         reduceAmount = 40f;
     }
 
-    public void ShieldPowerUp(){
-        shield.SetActive(true);
-        Invoke("ShieldPowerUpEnd", 10f);
-    }
 
-    private void ShieldPowerUpEnd(){
-        shield.SetActive(false);
-    }
 }
