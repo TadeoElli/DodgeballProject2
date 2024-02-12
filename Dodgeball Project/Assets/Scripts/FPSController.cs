@@ -149,7 +149,7 @@ public class FPSController : MonoBehaviour
 
     public void ShieldPowerUp(){
         shield.SetActive(true);
-        Invoke("ShieldPowerUpEnd", 7.0f);
+        Invoke("ShieldPowerUpEnd", 10f);
     }
 
     private void ShieldPowerUpEnd(){
