@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17073d62f01f0eb4e9127e2eb11d632b, type: 3}
-  m_Name: DrawFullscreenFeature2
+  m_Name: BoostPostProcess
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings:
     renderPassEvent: 600
     blitMaterial: {fileID: 2100000, guid: fd9063b8e8da4d24cac547288d14afd3, type: 2}
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17073d62f01f0eb4e9127e2eb11d632b, type: 3}
-  m_Name: DrawFullscreenFeature
+  m_Name: ShieldPostProcess
   m_EditorClassIdentifier: 
   m_Active: 0
   settings:

@@ -35,6 +35,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_1360b026961348b8a46444fdf2fd6a75_Texture_1:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -66,7 +70,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 1
-    - _Aplha: 0.5
+    - _Aplha: 0.209
     - _Blend: 0
     - _CastShadows: 1
     - _CenterMaskSize: 0.0625
@@ -77,8 +81,8 @@ Material:
     - _LineCount: 20
     - _LineDensity: 0.5
     - _LineFalloff: 0.25
-    - _MaskContrast: 0.8
-    - _MaskSize: 0.678
+    - _MaskContrast: 0.466
+    - _MaskSize: 0.729
     - _NumberOfFrames: 15
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -90,6 +94,6 @@ Material:
     - _ZWriteControl: 0
     m_Colors:
     - _Center: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - _Color: {r: 26.352942, g: 0.627451, b: 20.956863, a: 0}
+    - _Color: {r: 1.0994763, g: 1.0994763, b: 1.0994763, a: 0}
     - _LineColor: {r: 0.8867924, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

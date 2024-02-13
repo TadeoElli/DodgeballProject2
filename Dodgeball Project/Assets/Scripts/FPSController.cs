@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Rendering.Universal;
 
 [RequireComponent(typeof(CharacterController))]
 public class FPSController : MonoBehaviour
@@ -19,6 +19,7 @@ public class FPSController : MonoBehaviour
     public float increaseAmount = 15f;
     public bool isRunning = false;
     public bool isExhausted = false;
+    [SerializeField] private ScriptableRendererFeature _fullScreenBoost;
     
     
 
@@ -40,6 +41,7 @@ public class FPSController : MonoBehaviour
     {
         characterController = GetComponent<CharacterController>();
         _rigidbody = GetComponent<Rigidbody>();
+        _fullScreenBoost.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
@@ -141,6 +143,7 @@ public class FPSController : MonoBehaviour
         reduceAmount = 0f;
         runSpeed = 15f;
         walkSpeed = 9f;
+        _fullScreenBoost.SetActive(true);
         Invoke("BoostPowerUpEnd", 5.0f);
     }
 
@@ -148,6 +151,7 @@ public class FPSController : MonoBehaviour
         reduceAmount = 40f;
         runSpeed = 12f;
         walkSpeed = 6f;
+        _fullScreenBoost.SetActive(false);
     }
 
 

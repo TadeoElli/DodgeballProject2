@@ -23372,6 +23372,12 @@ PrefabInstance:
       propertyPath: shield
       value: 
       objectReference: {fileID: 804398315}
+    - target: {fileID: 3176439140235489071, guid: 8931b21d39a6b88499d88e61c8a35da4,
+        type: 3}
+      propertyPath: _fullScreenBoost
+      value: 
+      objectReference: {fileID: -6832583745679689997, guid: c40be3174f62c4acf8c1216858c64956,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8931b21d39a6b88499d88e61c8a35da4, type: 3}
 --- !u!1 &1594002701 stripped
