@@ -28785,6 +28785,8 @@ MonoBehaviour:
   shield: {fileID: 804398315}
   _fullScreenShield: {fileID: 7368355072817616509, guid: c40be3174f62c4acf8c1216858c64956,
     type: 2}
+  fullScreenShield_Material: {fileID: 2100000, guid: 62442b2a6508796429d0870c07d56eb2,
+    type: 2}
 --- !u!1 &2035627798 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6562889748348933850, guid: 445594dd14583aa4b9c2763a3f27a52a,

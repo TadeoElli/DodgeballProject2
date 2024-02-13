@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
@@ -26,6 +26,18 @@ Material:
     m_TexEnvs:
     - _MainTex:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_0b9d2dc518244d00b9bd1a3d62079627_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 2ea45edcb57fbf24e9db69275082b79e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_342184198f38421f8cc59e80d4a8008a_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 84e1f2ec4059e094e86739f3c3a8a0d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_c6f704b33492497996858dd700345f66_Texture_1:
+        m_Texture: {fileID: 2800000, guid: ab22c85e5416abd4eb39de1ec4062f76, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -47,16 +59,20 @@ Material:
     - _CastShadows: 1
     - _Cull: 2
     - _DstBlend: 10
-    - _FullscreenIntensify: 0.124
+    - _Float: 0
+    - _FullscreenIntensify: 0.031
+    - _LerpEndings: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SrcBlend: 5
     - _Surface: 1
     - _VignetteIntensity: 1.59
-    - _VignetteRadiusPower: 19.8
+    - _VignetteRadiusPower: 11.3
+    - _VignetteRadiusPowerEnding: 49.8
     - _VoronoidPower: -0.41
-    - _VoronoidScale: 20.5
-    - _VoronoidSpeed: 1
+    - _VoronoidScale: 0.5
+    - _VoronoidScale_1: 0.55
+    - _VoronoidSpeed: 0.02
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
@@ -64,6 +80,8 @@ Material:
     - _PannerSpeed: {r: 0, g: 0, b: 0, a: 0}
     - _RadiusOffset: {r: -0.5, g: -0.5, b: 0, a: 0}
     - _VignetteColor: {r: 0, g: 6.4697547, b: 31.999989, a: 1}
+    - _VignetteColorEnding: {r: 11.299958, g: 0.5015445, b: 0, a: 1}
+    - _VignetteColor_1: {r: 31.999989, g: 0.65346724, b: 0, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &1354262252019595143
 MonoBehaviour:
