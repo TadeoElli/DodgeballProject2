@@ -139,11 +139,15 @@ public class FPSController : MonoBehaviour
 
     public void BoostPowerUp(){
         reduceAmount = 0f;
+        runSpeed = 15f;
+        walkSpeed = 9f;
         Invoke("BoostPowerUpEnd", 5.0f);
     }
 
     private void BoostPowerUpEnd(){
         reduceAmount = 40f;
+        runSpeed = 12f;
+        walkSpeed = 6f;
     }
 
 
