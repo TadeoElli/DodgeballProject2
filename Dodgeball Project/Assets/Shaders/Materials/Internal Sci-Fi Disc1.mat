@@ -91,7 +91,7 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _Color: {r: 3.0314326, g: 0, b: 2.5552914, a: 1}
+    - _Color: {r: 256, g: 0, b: 135.3717, a: 1}
     - _ExternalColor: {r: 0.51149344, g: 0, b: 2.296614, a: 1}
     - _InternalColor: {r: 397.25214, g: 0, b: 251.6335, a: 1}
     - _Vector4: {r: 0, g: 0, b: 0, a: 0}
