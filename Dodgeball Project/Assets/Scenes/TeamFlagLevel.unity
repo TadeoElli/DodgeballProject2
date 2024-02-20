@@ -47610,7 +47610,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 2138463517}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.02
   m_Height: 0.068260804
   m_Direction: 1
@@ -47622,7 +47622,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2138463517}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dff6330f2b8ec6643a1060ff3648d7f9, type: 3}
   m_Name: 
