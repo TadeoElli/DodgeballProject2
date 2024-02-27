@@ -136,7 +136,8 @@ MonoBehaviour:
   interactable: 0
   pickedup: 0
   objRigidbody: {fileID: 0}
-  throwAmount: 10000
+  throwAmount: 1000
+  _Team1: _Team1
 --- !u!96 &275700414
 TrailRenderer:
   serializedVersion: 2

@@ -800,7 +800,7 @@ Animator:
   m_GameObject: {fileID: 45430566}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e2679db6ea2b29444bdc560d1fb4fce1, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1b3cfc52e69556a4094e905654ae2276, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7715,6 +7715,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PowerUpBoost (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1847282546049679612, guid: bedaf06da15b5f344b876adeca3caae0,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1b3cfc52e69556a4094e905654ae2276, type: 2}
     - target: {fileID: 2173097652758447071, guid: bedaf06da15b5f344b876adeca3caae0,
         type: 3}
       propertyPath: m_RootOrder
@@ -28425,7 +28430,7 @@ Animator:
   m_GameObject: {fileID: 1229297206}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e2679db6ea2b29444bdc560d1fb4fce1, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1b3cfc52e69556a4094e905654ae2276, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -38503,6 +38508,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PowerUpBoost (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1847282546049679612, guid: bedaf06da15b5f344b876adeca3caae0,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1b3cfc52e69556a4094e905654ae2276, type: 2}
     - target: {fileID: 2173097652758447071, guid: bedaf06da15b5f344b876adeca3caae0,
         type: 3}
       propertyPath: m_RootOrder
@@ -42587,6 +42597,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PowerUpBoost (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1847282546049679612, guid: bedaf06da15b5f344b876adeca3caae0,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1b3cfc52e69556a4094e905654ae2276, type: 2}
     - target: {fileID: 2173097652758447071, guid: bedaf06da15b5f344b876adeca3caae0,
         type: 3}
       propertyPath: m_RootOrder
@@ -48191,6 +48206,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PowerUpBoost
       objectReference: {fileID: 0}
+    - target: {fileID: 1847282546049679612, guid: bedaf06da15b5f344b876adeca3caae0,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1b3cfc52e69556a4094e905654ae2276, type: 2}
     - target: {fileID: 2173097652758447071, guid: bedaf06da15b5f344b876adeca3caae0,
         type: 3}
       propertyPath: m_RootOrder
@@ -48546,11 +48566,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ball
-      objectReference: {fileID: 0}
-    - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
-        type: 3}
-      propertyPath: _Team1
-      value: _Team1
       objectReference: {fileID: 0}
     - target: {fileID: 3888018645576604206, guid: 0a832411a9f887e4c9fccf4e122e25d6,
         type: 3}
